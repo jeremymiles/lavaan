@@ -347,7 +347,7 @@ lav_options_set <- function(opt = NULL) {
         } else if(opt$se == "robust.sem") {
             opt$se <- "robust.huber.white"
         } else {
-            stop("lavaan ERROR: `se' argument must one of \"none\", \"standard\", "\bootstrap\"
+            stop("lavaan ERROR: `se' argument must one of \"none\", \"standard\", \"bootstrap\"
                  or \"robust.huber.white\" in the multilevel case")
         }
 
